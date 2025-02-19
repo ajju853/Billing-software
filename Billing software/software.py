@@ -67,7 +67,7 @@ class Bill_App:
         cphn_lbl.grid(row=0, column=2, padx=20, pady=5)
         cphn_txt = Entry(F1, width=15, textvariable=self.c_phone, font='arial 15', bd=7, relief=GROOVE)
         cphn_txt.grid(row=0, column=3, pady=5, padx=10)
-
+        
         c_bill_lbl = Label(F1, text="Bill Number:", bg="#badc57", font=('times new roman', 15, 'bold'))
         c_bill_lbl.grid(row=0, column=4, padx=20, pady=5)
         c_bill_txt = Entry(F1, width=15, textvariable=self.search_bill, font='arial 15', bd=7, relief=GROOVE)
